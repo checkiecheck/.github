@@ -1,0 +1,33 @@
+openCatalogiYmlVersion: "0.2"
+# https://github.com/OpenCatalogi/OpenCatalogiBundle/blob/main/docs/Publicorganisation.md
+name: 'We Are Frank'
+# The official website of the public organization
+website: 'https://wearefrank.nl/'
+
+# The (optional) location of your own open catalogi installation
+#catalogusAPI: "'https://catalogus.publicorganizationwebsite.com/api"
+
+# The contact details of the public organization
+contact:
+  email: 'info@werarefrank.nl' # Public contact email
+  phone: '+31 10 340 5010' # Public contact phone number
+
+# List of software the public organization owns. keep in mind that owns dosn't automatically means maintained
+# Each item refers to the repository URL of the software
+softwareOwned:
+  - 'https://github.com/ibissource/iaf'
+  - 'https://github.com/ibissource/zaakbrug'
+  
+# List of software the public organization uses
+# Each item refers to the repository URL of the software
+softwareUsed:
+  
+
+# List of software the public organization supports
+# Each item is a maintenance object representing the support provided for a software
+softwareSupported:
+  - software: 'https://github.com/ibissource/zaakbrug'
+    type: 'maintenance' # The type of support provided
+    contact:
+      email: 'info@wearefrank.nl'
+      phone:  '+31 10 340 5010'
